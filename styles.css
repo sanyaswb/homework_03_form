@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-.form__container {
+.main {
 	display: flex;
 	justify-content: center;
 	max-width: 1920px;
@@ -28,7 +28,7 @@
 
 }
 
-.form__block-input {
+.form__block {
 	display: flex;
 	align-items: center;
 }
