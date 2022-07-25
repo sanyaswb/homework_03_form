@@ -11,10 +11,36 @@
 <body>
 	<main class="main">
 		<form action="#" class="form">
-			<label class="form__block">
-				<span class="form__description">Введите имя:</span>
-				<input class="form__input" type="text" name="name" placeholder="Name" required>
-			</label>
+			<span class="form__description">Name:</span>
+
+			<div class="form__row form__row_name">
+				<label class="form__block">
+					<input class="form__input" type="text" name="firstname" placeholder="First" required>
+				</label>
+
+				<label class="form__block">
+					<input class="form__input" type="text" name="surname" placeholder="Last" required>
+				</label>
+			</div>
+
+			<div class="form__row form__row_user-data">
+				<label class="form__block">
+					<span class="form__description">Birthday</span>
+					<input class="form__input" type="date" name="birthday">
+				</label>
+
+				<label class="form__block">
+					<span class="form__description">Email</span>
+					<input class="form__input" type="email" name="email">
+				</label>
+
+
+				<label class="form__block">
+					<span class="form__description">Phone</span>
+					<input class="form__input" type="tel" name="tel">
+				</label>
+
+			</div>
 		</form>
 	</main>
 </body>
