@@ -10,7 +10,7 @@
 </head>
 <body>
 	<main class="main">
-		<form action="#" class="form">
+		<form action="#" method="post" class="form" id="form">
 
 			<span class="form__description">Name:</span>
 
@@ -75,6 +75,83 @@
 				</label>
 			</div>
 
+			<span class="form__description">What is Brand Ambassadorship to You?</span>
+
+			<div class="form__row form__row_textarea">
+				<label class="form__block">
+					<textarea class="form__input form__input_textarea" name="feedback_aboutAmbassadorship"></textarea>
+				</label>
+			</div>
+
+			<span class="form__description">Which aspect of the Brand Ambassador program is most appealing to you? Check all that apply</span>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_photoshoot">
+					<span class="form__input-description">Photoshoots</span>
+				</label>
+			</div>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_event">
+					<span class="form__input-description">Event Appearances</span>
+				</label>
+			</div>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_media">
+					<span class="form__input-description">Social Media/Blogging</span>
+				</label>
+			</div>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_resume">
+					<span class="form__input-description">Networking/Resume Building</span>
+				</label>
+			</div>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_brand">
+					<span class="form__input-description">Expanding the brand</span>
+				</label>
+			</div>
+
+			<div class="form__row form__row_checkbox">
+				<label class="form__block">
+					<input type="checkbox" name="aspect_other">
+					<span class="form__input-description">other</span>
+				</label>
+			</div>
+
+			<span class="form__description">How did you find out about the Brand Ambassador Program</span>
+
+			<div class="form__row form__row_textarea">
+				<label class="form__block">
+					<textarea class="form__input form__input_textarea" name="feedback_programInformation"></textarea>
+				</label>
+			</div>
+
+			<span class="form__description">What are you favorite Style Trend Clothiers' brands and why?</span>
+
+			<div class="form__row form__row_textarea">
+				<label class="form__block">
+					<textarea class="form__input form__input_textarea" name="feedback_favoriteStyle"></textarea>
+				</label>
+			</div>
+
+			<span class="form__description">Please give us a snapshot of your community involvement by letting us know what activities you are involved with and are passionate about?</span>
+
+			<div class="form__row form__row_textarea">
+				<label class="form__block">
+					<textarea class="form__input form__input_textarea" name="feedback_snapshot"></textarea>
+				</label>
+			</div>
+
+			<input type="submit" class="form__submit" value="Send" id="submit">
 		</form>
 	</main>
 </body>
